@@ -1,0 +1,17 @@
+/*Global*/
+*, *::before, *::after {
+        box-sizing: border-box;
+}
+
+body {
+  display: flex;
+}
+/*Navigation*/
+
+.navigation {
+  list-style-type: none;
+  position: fixed;
+  li {
+    display: inline-block;
+  }
+}
